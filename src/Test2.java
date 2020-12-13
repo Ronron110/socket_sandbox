@@ -17,7 +17,7 @@ class Sample2 {
 
 	try{
 		//IPアドレスとポート番号を指定してクライアント側のソケットを作成
-		cSocket = new Socket("127.0.0.1", 8765);
+		cSocket = new Socket("3.113.27.149", 8765);
 
 		//クライアント側での入力用
 		csInput = new BufferedReader
